@@ -1,0 +1,5 @@
+on death of player:
+	loop all players:
+		make console execute command "gamemode spectator %loop-player%"
+	wait 90 seconds
+	make console execute command "stop"
